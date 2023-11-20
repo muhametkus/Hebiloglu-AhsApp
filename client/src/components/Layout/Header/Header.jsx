@@ -18,7 +18,7 @@ const Header = () => {
           <a href="/">
             <img
               className="w-full"
-              src="http://www.hebilogluahsap.com/img/logo.png"
+              src="./img/logo/logo.png"
               alt=""
             />
           </a>

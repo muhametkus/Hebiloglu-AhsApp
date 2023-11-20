@@ -15,10 +15,10 @@ const MainSlider = () => {
 
     <Carousel afterChange={onChange}>
       <div>
-        <img src="http://www.hebilogluahsap.com/img/hero/hero-1.jpg" alt="" />
+        <img src="./img/slider/hero-1.jpg" alt="" />
       </div>
       <div>
-      <img src="http://www.hebilogluahsap.com/img/hero/hero-2.jpg" alt="" />
+      <img src="./img/slider/hero-2.jpg" alt="" />
 
       </div>
     </Carousel>
