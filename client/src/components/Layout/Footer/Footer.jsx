@@ -11,7 +11,7 @@ const Footer = () => {
       
         <footer className="footer p-10 text-base-content w-full 2xl:w-[1920px] mx-auto">
   <aside>
-    <img className="h-[50px] border-0" src="http://www.hebilogluahsap.com/img/logo.png" alt="" />
+    <img className="h-[50px] border-0" src="./img/logo/logo.png" alt="" />
     <p>Hebiloğlu Ahşap<br/>1983'ten beri hizmet vermekte</p>
   </aside> 
   <nav>
