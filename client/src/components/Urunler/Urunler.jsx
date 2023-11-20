@@ -1,91 +1,61 @@
 import React from "react";
 import "./Urunler.css";
-import { Card } from "antd";
-const { Meta } = Card;
+import { CaretRightOutlined, RightCircleFilled, RightCircleOutlined, RightOutlined } from '@ant-design/icons';
+import AraDiv2 from "../AraDiv2/AraDiv2";
 
 const Urunler = () => {
   return (
-    <div className="w-full flex">
-      <div className="w-[85%] md:w-[95%] flex flex-col  justify-between mx-auto gap-y-20">
-        <div className="doors flex w-full justify-evenly">
-        <Card
-          hoverable
-          style={{
-            width: 240,
-          }}
-          cover={
-            <img
-              alt="example"
-              src="./img/kapilar/Melaminler/gobekliMelaminler/beyaz3gobek.jpg"
-            />
-          }
-        >
-          <Meta title="Europe Street beat" description="www.instagram.com" />
-        </Card>
+    <div className="w-full bg-gray-800 mx-auto pt-48 sm:pt-40 sm:py-12">
+      <div className="2xl:w-[1536px] w-[85%] md:w-[95%] sm:w-full flex flex-col justify-between mx-auto sm:justify-center sm:gap-y-5">
+        <div className="doors flex w-full justify-evenly sm:flex-col  sm:justify-center gap-y-5 mb-3">
 
-        <Card
-          hoverable
-          style={{
-            width: 240,
-          }}
-          cover={
-            <img
-              alt="example"
-              src="./img/kapilar/Lakeler/LuksLakeler/lakeluks1-d.jpg"
-            />
-          }
-        >
-          <Meta title="Europe Street beat" description="www.instagram.com" />
-        </Card>
+            <div className="w-[240px] h-[600px] sm:mx-auto flex flex-col justify-start cardlar  rounded-xl items-center"><a href="/melamin-kapilar"> 
+              <img className="resim-hover2 w-[240px] rounded-tl-lg rounded-tr-lg" src="./img/kapilar/Melaminler/gobekliMelaminler/beyaz3gobek.jpg" alt="Melamin Kapı" />
+              <h3 className="text-center text-2xl my-3 text-white">MELAMİN KAPI</h3></a>
+              <a href="/melamin-kapilar" className="btn mx-auto rounded-none text-lg bg-orange-500 mb-2 incele-buton hidden sm:flex ">Modelleri İncele<CaretRightOutlined  /></a>
+            </div>
 
-        <Card
-          hoverable
-          style={{
-            width: 240,
-          }}
-          cover={
-            <img
-              alt="example"
-              src="./img/kapilar/Amerikan/SaraAmerikan.jpg"
-            />
-          }
-        >
-          <Meta title="Europe Street beat" description="www.instagram.com" />
-        </Card>
+            <div className="w-[240px] h-[600px] sm:mx-auto flex flex-col justify-start cardlar  rounded-xl items-center "><a href="/lake-kapilar"> 
+              <img className="resim-hover2 w-[240px] rounded-tl-lg rounded-tr-lg" src="./img/kapilar/Lakeler/LuksLakeler/lakeluks1-d.jpg" alt="Lüks Lake Kapı" />
+              <h3 className="text-center text-2xl my-3 text-white">LAKE KAPI</h3></a>
+              <a href="/lake-kapilar" className="btn mx-auto rounded-none text-lg bg-orange-500 mb-2 incele-buton hidden sm:flex ">Modelleri İncele<CaretRightOutlined  /></a>
+            </div>
+
+
+            <div className="w-[240px] h-[600px] sm:mx-auto flex flex-col justify-start cardlar  rounded-xl items-center"><a href="/amerikan-kapilar"> 
+              <img className="resim-hover2 w-[240px] rounded-tl-lg rounded-tr-lg" src="./img/kapilar/Amerikan/SaraAmerikan.jpg" alt="Lüks Lake Kapı" />
+              <h3 className="text-center text-2xl my-3 text-white">AMERİKAN KAPI</h3></a>
+              <a href="/amerikan-kapilar" className="btn mx-auto rounded-none text-lg bg-orange-500 mb-2 incele-buton hidden sm:flex ">Modelleri İncele<CaretRightOutlined  /></a>
+            </div>
+
+
+
+
         </div>
 
-        <div className="flex w-full justify-evenly">
-        <Card
-          hoverable
-          style={{
-            width: 240,
-          }}
-          cover={
-            <img
-              alt="example"
-              src="./img/mutfak/mutfak.webp"
-            />
-          }
-        >
-          <Meta title="Europe Street beat" description="www.instagram.com" />
-        </Card>
+        <hr className="my-0 py-0 sm:hidden" />
+        
+        <div className="doors flex w-full justify-evenly sm:flex-col  sm:justify-center gap-y-5 mt-16">
 
-        <Card
-          hoverable
-          style={{
-            width: 240,
-          }}
-          cover={
-            <img
-              alt="example"
-              src="./img/banyolar/banyo1.jpg"
-            />
-          }
-        >
-          <Meta title="Europe Street beat" description="www.instagram.com" />
-        </Card>
+            <div className="w-[350px] h-[470px] sm:mx-auto flex flex-col justify-start cardlar  rounded-xl items-center"><a href="/mutfak-dolaplari">
+              <img className="resim-hover2 w-[350px] rounded-tl-lg rounded-tr-lg" src="./img/mutfak/mutfak.webp" alt="Mutfak Dolapları" />
+              <h3 className="text-center text-2xl my-3 text-white">MUTFAK DOLAPLARI</h3></a>
+              <a href="/mutfak-dolaplari" className="btn mx-auto rounded-none text-lg bg-orange-500 mb-2 incele-buton hidden sm:flex ">Modelleri İncele<CaretRightOutlined  /></a>
+            </div>
+
+            <div className="w-[350px] h-[470px] sm:mx-auto flex flex-col justify-start cardlar  rounded-xl items-center"><a href="/banyo-dolaplari">
+              <img className="resim-hover2 w-[288px] rounded-tl-lg rounded-tr-lg" src="./img/banyolar/banyo1.jpg" alt="Mutfak Dolapları" /> 
+              <h3 className="text-center text-2xl my-3 text-white">BANYO DOLAPLARI</h3></a>
+              <a href="/banyo-dolaplari" className="btn mx-auto rounded-none text-lg bg-orange-500 mb-2 incele-buton hidden sm:flex ">Modelleri İncele<CaretRightOutlined  /></a>
+            </div>
+
+            
+
+
         </div>
+        
       </div>
+      
     </div>
   );
 };

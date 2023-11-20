@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage/HomePage'
 function App() {
 
   return (
-    <div className='w-full 2xl:w-[1920px] mx-auto'>
+    <div className=''>
       <HomePage/>
     </div>
   )

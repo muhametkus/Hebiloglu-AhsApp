@@ -1,10 +1,15 @@
 import React from 'react'
 import './SliderAlt.css'
+import AraDiv from '../AraDiv/AraDiv'
+import AraDivMobile from '../AraDivMobile/AraDivMobile'
+
 const SliderAlt = () => {
   return (
+    <>
+         
     <div className='w-full grid grid-cols-1  bg-gray-200'>
-        <h2 className='w-[80%] md:w-[90%] mx-auto text-5xl font-light mb-5 mt-16 sm:mb-0'>SİZE ÖZEL DEKORASYON</h2>
-        <div className='w-[80%] md:w-[90%] flex justify-between  row sm:grid sm:grid-cols-2 sm:gap-12 sm:py-16 py-8 mx-auto'>
+        <h2 className='2xl:w-[1536px] w-[80%] md:w-[90%] mx-auto text-5xl font-light mb-5 mt-16 sm:mb-0 '>SİZE ÖZEL DEKORASYON</h2>
+        <div className='2xl:w-[1536px] w-[80%] md:w-[90%] flex justify-between  row sm:grid sm:grid-cols-2 sm:gap-12 sm:py-16 py-8 mx-auto'>
             
             <div>
                 <img className='mx-auto mb-2 resim-hover' src="./img/SliderAltImg/services-1.png" alt="" />
@@ -27,6 +32,9 @@ const SliderAlt = () => {
             </div>
         </div>
     </div>
+    <AraDiv/>
+    <AraDivMobile/>
+    </>
   )
 }
 

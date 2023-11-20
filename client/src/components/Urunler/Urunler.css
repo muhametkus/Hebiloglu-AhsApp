@@ -1,0 +1,16 @@
+.resim-hover2{
+    transition: all ease-in 0.5s;
+}
+
+.resim-hover2:hover {
+     transform: scale(1.03); 
+   }
+
+.cardlar{
+    transition: all ease-in-out 5s;
+}
+
+.cardlar:hover>.incele-buton{
+
+    display: flex;
+}
