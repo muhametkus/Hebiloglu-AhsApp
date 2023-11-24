@@ -35,7 +35,7 @@ const Header = () => {
             <a href="/">Hakkımızda</a>
           </li>
           <li className="py-1 px-4 md:px-2  decoration-white decoration-[1px]	transition-all ease-in-out underline-offset-8 hover:underline">
-            <a href="/">İletişim</a>
+            <a href="/iletisim ">İletişim</a>
           </li>
 
           <li className="py-2 px-5 md:px-2 dropdown dropdown-bottom dropdown-end dropdown-hover ">
