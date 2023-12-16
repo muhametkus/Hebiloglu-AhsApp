@@ -1,7 +1,6 @@
 import React from "react";
 import "./Urunler.css";
 import { CaretRightOutlined, RightCircleFilled, RightCircleOutlined, RightOutlined } from '@ant-design/icons';
-import AraDiv2 from "../AraDiv2/AraDiv2";
 
 const Urunler = () => {
   return (

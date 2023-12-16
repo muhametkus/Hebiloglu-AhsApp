@@ -1,15 +1,11 @@
 import React from 'react'
-import AraDiv2 from '../../AraDiv2/AraDiv2'
-import AraDiv2Mobile from '../../AraDiv2Mobile/AraDiv2Mobile'
 
 const Footer = () => {
   return (
     <>
-    <AraDiv2/>
-    <AraDiv2Mobile/>
     <div className='w-full flex justify-center mx-auto bg-gray-200 z-40 absolute'>
       
-        <footer className="footer p-10 text-base-content w-full 2xl:w-[1920px] mx-auto">
+        <footer className="footer p-10 text-base-content container mx-auto">
   <aside>
     <img className="h-[50px] border-0" src="./img/logo/logo.png" alt="" />
     <p>Hebiloğlu Ahşap<br/>1983'ten beri hizmet vermekte</p>
