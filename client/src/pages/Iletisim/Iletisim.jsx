@@ -6,9 +6,9 @@ import Harita from '../../components/IletisimComponents/Harita'
 const Iletisim = () => {
   return (
     <div className=''>
-    <UstDiv SayfaAdi="İLETİŞİM"/>
+    <UstDiv SayfaAdi="İLETİŞİM "/>
     <div className='flex flex-col 2xl:w-[1536px] w-[80%] md:w-[95%] mx-auto'>
-        <IletisimComp/>
+    <IletisimComp/>
         <Harita/>
     </div>
     </div>

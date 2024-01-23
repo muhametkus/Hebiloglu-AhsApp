@@ -6,7 +6,7 @@ const IletisimComp = () => {
 
         <h2 className='text-orange-500 text-3xl'>BİZİMLE İLETİŞİME GEÇİN</h2>
 
-        <div className='flex w-full border justify-between flex-wrap gap-y-8 my-5'>
+        <div className='flex w-full justify-between flex-wrap gap-y-8 my-5'>
             <div className='flex flex-row gap-x-5'>
               <div><img src="./img/iletisim/tel.png" alt="" /></div>
               <div className='flex flex-col'>

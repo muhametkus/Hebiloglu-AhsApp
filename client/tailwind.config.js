@@ -9,7 +9,7 @@ export default {
       screens: {
       'sm': { 'max': '719px'},
 
-      'md': {'min': '720px', 'max': '1023px'},
+      'md': {'min': '719px', 'max': '1023px'},
 
       'lg': {'min': '1024px', 'max': '1279px'},
 
@@ -17,7 +17,6 @@ export default {
 
       '2xl': {'min': '1920px'},
       },
-
 
     },
   },

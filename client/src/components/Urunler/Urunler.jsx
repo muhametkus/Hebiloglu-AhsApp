@@ -4,12 +4,12 @@ import { CaretRightOutlined, RightCircleFilled, RightCircleOutlined, RightOutlin
 
 const Urunler = () => {
   return (
-    <div className="w-full bg-gray-800 mx-auto pt-48 sm:pt-40 sm:py-12">
+    <div className="w-full bg-gray-800 mx-auto pt-48 pb-8 sm:pt-40 sm:py-12">
       <div className="2xl:w-[1536px] w-[85%] md:w-[95%] sm:w-full flex flex-col justify-between mx-auto sm:justify-center sm:gap-y-5">
         <div className="doors flex w-full justify-evenly sm:flex-col  sm:justify-center gap-y-5 mb-3">
 
-            <div className="w-[240px] h-[600px] sm:mx-auto flex flex-col justify-start cardlar  rounded-xl items-center"><a href="/melamin-kapilar"> 
-              <img className="resim-hover2 w-[240px] rounded-tl-lg rounded-tr-lg" src="./img/kapilar/Melaminler/gobekliMelaminler/beyaz3gobek.jpg" alt="Melamin Kapı" />
+            <div className="w-[246.9px] h-[600px] sm:mx-auto flex flex-col justify-start cardlar  rounded-xl items-center"><a href="/melamin-kapilar"> 
+              <img className="resim-hover2 w-[246.9px] opacity-85 rounded-tl-lg rounded-tr-lg" src="/img/kapilar/Melaminler/duzMelaminler/h-fugali.png" alt="Melamin Kapı" />
               <h3 className="text-center text-2xl my-3 text-white">MELAMİN KAPI</h3></a>
               <a href="/melamin-kapilar" className="btn mx-auto rounded-none text-lg bg-orange-500 mb-2 incele-buton hidden sm:flex ">Modelleri İncele<CaretRightOutlined  /></a>
             </div>

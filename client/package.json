@@ -1,5 +1,6 @@
 {
-  "name": "client",
+  "name": "Hebiloglu Ahsap",
+  "homepage": "http://deneme2.hebilogluahsap.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,13 +13,18 @@
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
     "antd": "^5.11.1",
+    "axios": "^1.6.5",
     "bootstrap": "^5.3.2",
+    "dotenv": "^16.3.1",
+    "env": "^0.0.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.18.0",
+    "react-router-dom": "^6.21.1",
     "react-slick": "^0.29.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.8",
+    "sweetalert2": "^11.10.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
