@@ -11,7 +11,7 @@ const UrunlerKategorize = () => {
     useContext(UrundetayContext);
   const { altKategoriLink } = useParams();
   const [urunler, SetUrunler] = useState([]);
-  const apiUrl = "https://apideneme.hebilogluahsap.com/nodeapi/";
+  const apiUrl = "https://apideneme.hebilogluahsap.com/nodeapi";
   const [sayfaAdi, SetSayfaAdi] = useState("");
   console.log("altkategori: ");
 

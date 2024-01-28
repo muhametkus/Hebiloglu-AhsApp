@@ -9,7 +9,7 @@ import Axios from "axios";
 
 const UrunDetay = () => {
   const {bulunanSayfa, SetBulunanSayfa,urun} = useContext(UrundetayContext);
-  const apiUrl = "https://apideneme.hebilogluahsap.com/nodeapi/";
+  const apiUrl = "https://apideneme.hebilogluahsap.com/nodeapi";
   useEffect(() => {
     SetBulunanSayfa(window.location.pathname.split('/')[2]);
   }, []);
