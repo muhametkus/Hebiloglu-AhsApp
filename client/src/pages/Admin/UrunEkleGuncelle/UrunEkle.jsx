@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Swal from 'sweetalert2'
 const UrunEkle = () => {
-  const apiUrl = import.meta.env.VITE_APP_SERVER_URL;
+  const apiUrl = "https://apideneme.hebilogluahsap.com/nodeapi/";
   const [modelAdi, setModelAdi]=useState("");
   const [aciklama, setAciklama]=useState("");
   const [resimLinki, setResimLinki]=useState("");
