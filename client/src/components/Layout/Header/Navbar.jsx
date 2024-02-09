@@ -72,20 +72,20 @@ const Navbar = () => {
                   <ul className="flex flex-row justify-evenly 2xl:w-[1800px] xl:w-[90%] lg:w-[90%] md:w-full mx-auto">
           <ul className="flex flex-col">
           <li className="hover:text-orange-400 duration-500"><Link to="/melamin-kapilar">MELAMİN KAPILAR</Link></li>
-          <li className="font-thin hover:text-orange-400 duration-500"><Link to="/urunler/duz-melamin-kapilar">DÜZ MELAMİN KAPILAR</Link></li>
-          <li className="font-extralight hover:text-orange-400 duration-500"><Link to="/urunler/gobekli-melamin-kapilar">GÖBEKLİ MELAMİN KAPILAR</Link></li>
+          <li className="font-thin hover:text-orange-400 duration-500"><a href="/urunler/duz-melamin-kapilar">DÜZ MELAMİN KAPILAR</a></li>
+          <li className="font-extralight hover:text-orange-400 duration-500"><a href="/urunler/gobekli-melamin-kapilar">GÖBEKLİ MELAMİN KAPILAR</a></li>
           </ul>
           <ul className="flex flex-col">
           <li className="hover:text-orange-400 duration-500"><Link to="/lake-kapilar">LAKE KAPILAR</Link></li>
-          <li className="font-extralight hover:text-orange-400 duration-500"><Link to="/urunler/standart-lake-kapilar">STANDART LAKE KAPILAR</Link></li>
-          <li className="font-extralight hover:text-orange-400 duration-500"><Link to="/urunler/standart-luks-kapilar">LÜKS LAKE KAPILAR</Link></li>
+          <li className="font-extralight hover:text-orange-400 duration-500"><a href="/urunler/standart-lake-kapilar">STANDART LAKE KAPILAR</a></li>
+          <li className="font-extralight hover:text-orange-400 duration-500"><a href="/urunler/standart-luks-kapilar">LÜKS LAKE KAPILAR</a></li>
           </ul>
           <ul className="flex flex-col">
-          <li className="hover:text-orange-400 duration-500"><Link to="/urunler/amerikan-kapilar">AMERİKAN KAPILAR</Link></li>
+          <li className="hover:text-orange-400 duration-500"><a href="/urunler/amerikan-kapilar">AMERİKAN KAPILAR</a></li>
           </ul>
           <ul className="flex flex-col">
-          <li className="hover:text-orange-400 duration-500"><Link to="/urunler/mutfak-dolaplari">MUTFAK DOLAPLARI</Link></li>
-          <li className="hover:text-orange-400 duration-500"><Link to="/urunler/banyo-dolaplari">BANYO DOLAPLARI</Link></li>
+          <li className="hover:text-orange-400 duration-500"><a href="/urunler/mutfak-dolaplari">MUTFAK DOLAPLARI</a></li>
+          <li className="hover:text-orange-400 duration-500"><a href="/urunler/banyo-dolaplari">BANYO DOLAPLARI</a></li>
 
           </ul>
         </ul>
