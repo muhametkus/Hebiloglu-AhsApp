@@ -1,19 +1,26 @@
 
-import React, { useContext, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import UstDiv from "../../components/UstDiv/UstDiv";
-import {UrundetayContext} from '../../context/UrundetayProvider';
-import { useNavigate } from "react-router-dom";
+import {useParams} from "react-router-dom";
 import Swal from 'sweetalert2';
 import Axios from "axios";
 
 
 const UrunDetay = () => {
-  const {bulunanSayfa, SetBulunanSayfa,urun} = useContext(UrundetayContext);
+  const { urunLinki } = useParams();
+  console.log("dandini: "+urunLinki);
+  const [urun,SetUrun]=useState([]);
   const apiUrl = "https://apideneme.hebilogluahsap.com/nodeapi";
+  
   useEffect(() => {
-    SetBulunanSayfa(window.location.pathname.split('/')[2]);
-  }, []);
-
+    Axios.get(`${apiUrl}/urunler/urun/${window.location.pathname.split("/")[2]}`)
+      .then((response) => {
+        SetUrun(response.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+  }, [urunLinki]);
   
   let KapiUcreti = 0;
   if (urun.altKategoriLink=="duz-melamin-kapilar") {
