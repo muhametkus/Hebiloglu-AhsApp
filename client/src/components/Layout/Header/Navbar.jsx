@@ -47,11 +47,11 @@ const Navbar = () => {
   return (
     <div className={`w-full bg-slate-800 flex items-center fixed z-50  ${isVisible?"":"sm:top-0 "} ${mobilMenu?"sm:top-0":"sm:flex"} shadow-2xl `}>
       <div className="h-[70px] 2xl:w-[1536px] w-[85%] md:w-[95%] sm:[95%] mx-auto flex justify-between items-center ">
-        <div className={`logo-div font-light w-[250px] text-2xl ${mobilMenu?"sm:hidden":"sm:flex"}`}>          <a href="/"><img className="w-full" src="/img/logo/logo.png" alt="logo" /></a>
+        <div className={`logo-div font-light w-[250px] ml-2 text-2xl ${mobilMenu?"sm:hidden":"sm:flex"}`}>          <a href="/"><img className="w-full" src="/img/logo/logo.png" alt="logo" /></a>
 </div>
         <div className="flex items-center sm:justify-start sm:absolute sm:w-full z-40 sm:bg-black sm:bg-opacity-75 sm:left-0 sm:top-0">
         
-          <ul className={`flex items-center sm:flex-col sm:z-50 sm:py-5 sm:px-20 sm:bg-slate-800 sm:h-screen  ${mobilMenu?"sm:flex ":"sm:hidden "} ${isVisible?"":""}`}>
+          <ul className={`flex items-center sm:flex-col sm:z-50 sm:py-5 sm:px-12 sm:bg-slate-800 sm:h-screen  ${mobilMenu?"sm:flex ":"sm:hidden "} ${isVisible?"":""}`}>
             
               <li className="text-lg sm:text-xl md:text-base md:py-0 py-5 px-3">
                 <Link
