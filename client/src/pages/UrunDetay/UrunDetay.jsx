@@ -7,6 +7,9 @@ import Axios from "axios";
 
 
 const UrunDetay = () => {
+  const[iletisim,SetIletisim]=useState("");
+  const[adSoyad,SetAdSoyad]=useState("");
+  const[aksesuar,SetAksesuar]=useState("");
   const { urunLinki } = useParams();
   console.log("dandini: "+urunLinki);
   const [urun,SetUrun]=useState([]);
@@ -149,9 +152,7 @@ const UrunDetay = () => {
 
   }
 
-  const[iletisim,SetIletisim]=useState("");
-  const[adSoyad,SetAdSoyad]=useState("");
-  const[aksesuar,SetAksesuar]=useState("");
+  
 
 
   return (

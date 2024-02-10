@@ -12,7 +12,7 @@ const UrunlerKategorize = () => {
   const apiUrl = "https://apideneme.hebilogluahsap.com/nodeapi";
   const [sayfaAdi, SetSayfaAdi] = useState("");
   const navigate=useNavigate();
-
+console.log("alt kategori: "+altKategoriLink);
   const uruneGit=(urunLinki)=>{
     navigate(`/urun-detay/${urunLinki}`)
   };
@@ -34,7 +34,7 @@ const UrunlerKategorize = () => {
   }, [altKategoriLink]);
 
   return (
-    <div className="Ürünler">
+    <div className="Ürünler pb-14">
       <UstDiv SayfaAdi={`${sayfaAdi} KAPILAR`} />
       <div className="flex flex-row flex-wrap gap-x-5 gap-y-14 justify-between 2xl:w-[1536px] w-[80%] md:w-[95%] mx-auto">
         {urunler &&
