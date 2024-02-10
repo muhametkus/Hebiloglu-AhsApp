@@ -184,7 +184,6 @@ const UrunDetay = () => {
                 type="number"
                 placeholder="Kapı Adedi"
                 className="input input-bordered w-full max-w-xs"
-                value={kapiAdedi}
                 onChange={KapiAdediInput}
               />
             </div>
@@ -193,10 +192,10 @@ const UrunDetay = () => {
           <div className="flex flex-row items-center w-full justify-between">
             <div className="text-lg font-semibold">Montaj Yeri Neresi?</div>
             <div>
-              <select className="select select-bordered w-[225px]" value={montajYeri}
+              <select className="select select-bordered w-[225px]" 
                 onChange={MontajYeriInput}>
 
-                <option selected>İlçe Seçiniz</option>
+                <option>İlçe Seçiniz</option>
                 <option>Montajsız</option>
                 <option>Pendik</option>
                 <option>Kartal</option>
@@ -215,10 +214,10 @@ const UrunDetay = () => {
           <div className="flex flex-row items-center w-full justify-between">
             <div className="text-lg font-semibold">Kasa Genişliği</div>
             <div>
-              <select className="select select-bordered w-[225px]" value={kasaGenisligi}
+              <select className="select select-bordered w-[225px]" 
                 onChange={KasaGenisligiInput}>
 
-                <option selected>Kasa Genişliği</option>
+                <option>Kasa Genişliği</option>
                 <option>10'luk Kasa (8.5 tuğla)</option>
                 <option>15'lik Kasa (13.5 tuğla)</option>
                 <option>20'lik Kasa (18.5 tuğla)</option>
@@ -232,7 +231,7 @@ const UrunDetay = () => {
               <input
                 type="number"
                 placeholder="1 tane camlı farkı 1.000TL"
-                className="input input-bordered w-full max-w-xs" value={camliSayisi}
+                className="input input-bordered w-full max-w-xs" 
                 onChange={CamliSayisiInput}
               />
             </div>
@@ -243,7 +242,7 @@ const UrunDetay = () => {
             <div className="text-lg font-semibold">Kapı Kolu Seçimi</div>
             <div>
               <select className="select select-bordered w-[225px]" onChange={(e)=>SetAksesuar(e.target.value)}>
-                <option selected>
+                <option>
                   Standart Aksesuar
                 </option>
               </select>
