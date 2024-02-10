@@ -9,7 +9,7 @@ const Hakkimizda = () => {
         <div className="flex flex-row flex-wrap gap-x-8">
           
           <div className="w-[50%] mx-auto sm:w-full md:w-[90%]">
-            <h1 className="text-5xl mb-5 sm:text-4xl">40 YILA YAKLAŞAN TECRÜBEMİZLE EVİNİZİ DEKORE EDİYORUZ</h1>
+            <h1 className="text-5xl mb-5 sm:text-4xl">40 YILI AŞAN TECRÜBEMİZLE EVİNİZİ DEKORE EDİYORUZ</h1>
             <p className="text-lg mt-5">
               1983 yılında mobilya sektöründe hizmet vermek amacıyla Pendik'te
               kurulan ve geçmişten günümüze sektörde Hebiloğlu Mobilya
