@@ -13,7 +13,7 @@ const UrunDetay = () => {
   const { urunLinki } = useParams();
   console.log("dandini: "+urunLinki);
   const [urun,SetUrun]=useState([]);
-  const apiUrl = "https://apideneme.hebilogluahsap.com/nodeapi";
+  const apiUrl = "https://apideneme2.hebilogluahsap.com/urunApi";
   
   useEffect(() => {
     Axios.get(`${apiUrl}/urunler/urun/${window.location.pathname.split("/")[2]}`)

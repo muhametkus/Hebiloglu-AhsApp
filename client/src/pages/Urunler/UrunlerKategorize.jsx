@@ -9,7 +9,7 @@ const UrunlerKategorize = () => {
 
   const { altKategoriLink } = useParams();
   const [urunler, SetUrunler] = useState([]);
-  const apiUrl = "https://apideneme.hebilogluahsap.com/nodeapi";
+  const apiUrl = "https://apideneme2.hebilogluahsap.com/urunApi";
   const [sayfaAdi, SetSayfaAdi] = useState("");
   const navigate=useNavigate();
 console.log("alt kategori: "+altKategoriLink);
