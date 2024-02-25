@@ -22,7 +22,7 @@ const MelaminKapilar = () => {
 
             <img
               className="resim-hover2 w-[240px] rounded-tl-lg rounded-tr-lg mb-5"
-              src="/img/kapilar/Melaminler/duzMelaminler/h-fugali.jpg"
+              src="/img/kapilar/Melaminler/duzMelaminler/h-fugali2.jpg"
               alt="Ozigo Melamin Kapı"
             />
           
@@ -40,7 +40,7 @@ const MelaminKapilar = () => {
             <h3 className='text-center text-2xl my-3'>GÖBEKLİ MELAMİN</h3>
             <img
               className="resim-hover2 w-[242px] rounded-tl-lg rounded-tr-lg mb-5"
-              src="/img/kapilar/Melaminler/gobekliMelaminler/paris.jpg"
+              src="/img/kapilar/Melaminler/gobekliMelaminler/roma3gobek2.jpg"
               alt="Ozigo Melamin Kapı"
             />
           
