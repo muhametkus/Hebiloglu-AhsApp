@@ -9,6 +9,7 @@ import MelaminKapilar from './pages/Urunler/Kapilar/MelaminKapilar';
 import LakeKapilar from './pages/Urunler/Kapilar/LakeKapilar';
 import UrunlerKategorize from './pages/Urunler/UrunlerKategorize';
 import Siparisler from './pages/Admin/Siparisler/Siparisler';
+import Mutfak from './pages/Urunler/Mutfak/Mutfak';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
     <Route path="/urun-detay/:modelAdi" element={<UrunDetay/>} />
     <Route path="/urunler/:altkategoriLink" element={<UrunlerKategorize/>} />
     <Route path="/admin/siparisler" element={<Siparisler/>}/>
+    <Route path="/urunler/mutfak-dolaplari" element={<Mutfak/>}/>
 
 
     </Routes>
