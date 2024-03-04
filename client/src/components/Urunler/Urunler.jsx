@@ -39,7 +39,7 @@ const Urunler = () => {
             <div className="w-[350px] h-[470px] sm:mx-auto flex flex-col justify-start cardlar  rounded-xl items-center"><a href="/mutfak-dolaplari">
               <img className="resim-hover2 w-[350px] rounded-tl-lg rounded-tr-lg" src="./img/mutfak/mutfak.webp" alt="Mutfak Dolapları" />
               <h3 className="text-center text-2xl my-3 text-white">MUTFAK DOLAPLARI</h3></a>
-              <a href="/mutfak-dolaplari" className="btn mx-auto rounded-none text-lg bg-orange-500 mb-2 incele-buton hidden sm:flex ">Modelleri İncele<CaretRightOutlined  /></a>
+              <a href="/urunler/mutfak-dolaplari" className="btn mx-auto rounded-none text-lg bg-orange-500 mb-2 incele-buton hidden sm:flex ">Modelleri İncele<CaretRightOutlined  /></a>
             </div>
 
             <div className="w-[350px] h-[470px] sm:mx-auto flex flex-col justify-start cardlar  rounded-xl items-center"><a href="/banyo-dolaplari">
