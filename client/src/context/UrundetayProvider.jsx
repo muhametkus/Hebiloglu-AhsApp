@@ -5,7 +5,7 @@ export const UrundetayContext = createContext();
 
 const UrundetayProvider = ({ children }) => {
   const [secilenUrunLink, setSecilenUrunLink] = useState("");
-  const apiUrl = "https://apideneme2.hebilogluahsap.com/urunApi";
+  const apiUrl = "https://api.hebilogluahsap.com/urunApi";
   const [bulunanSayfa, SetBulunanSayfa] = useState("");
   const [urun, SetUrun] = useState([]);
   const [secilenKategori, SetSecilenKategori] = useState("");
