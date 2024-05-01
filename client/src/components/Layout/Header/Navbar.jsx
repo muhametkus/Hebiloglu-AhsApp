@@ -68,8 +68,8 @@ const Navbar = () => {
                   onClick={()=>setMobilMenu(false)}
                 >ÜRÜNLER
                 </Link>
-                  <div className="absolute top-[100%] right-0 bg-slate-400 px-5 md:px-2 mx-auto py-9  sm:hidden text-slate-900 mega hover:flex hidden w-full text-xl md:text-base lg:text-lg">
-                  <ul className="flex flex-row justify-evenly 2xl:w-[1800px] xl:w-[90%] lg:w-[90%] md:w-full mx-auto">
+                  <div className="absolute top-[100%] right-0 bg-slate-400 px-5 md:px-2 mx-auto py-9 sm:hidden text-slate-900 mega hover:flex hidden w-full text-xl md:text-base lg:text-lg">
+                  <ul className="duration-500 flex flex-row justify-evenly 2xl:w-[1800px] xl:w-[90%] lg:w-[90%] md:w-full mx-auto">
           <ul className="flex flex-col">
           <li className="hover:text-orange-400 duration-500"><Link to="/melamin-kapilar">MELAMİN KAPILAR</Link></li>
           <li className="font-thin hover:text-orange-400 duration-500"><a href="/urunler/duz-melamin-kapilar">DÜZ MELAMİN KAPILAR</a></li>
