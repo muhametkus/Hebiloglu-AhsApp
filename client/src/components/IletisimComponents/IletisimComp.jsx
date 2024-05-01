@@ -45,7 +45,7 @@ const IletisimComp = () => {
                 <h2 className='text-orange-500 text-2xl'>Adreslerimiz</h2>
                 <span className='flex flex-col ml-1 gap-y-2'>
                 <p><b>Showroom:</b> Fevizçakmak mh. Mustafa Kemal cd. No:4/B<br/>Pendik/İstanbul</p>
-                <p><b>Fabrika:</b> Fevizçakmak mh. Mustafa Kemal cd. No:4/B<br/>Pendik/İstanbul</p>
+                <p><b>Fabrika:</b> Şekerpınar Küçük Sanayi Bölgesi<br/>Çayırova/Kocaeli</p>
                 </span>
               </div>
             </div>
