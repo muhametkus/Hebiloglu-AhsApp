@@ -27,7 +27,7 @@ const UrunDetay = () => {
   
   let KapiUcreti = 0;
   if (urun.altKategoriLink=="duz-melamin-kapilar") {
-    KapiUcreti = KapiUcreti+3500;
+    KapiUcreti = KapiUcreti+6500;
     
   }
   else{
@@ -94,7 +94,7 @@ const UrunDetay = () => {
   }
 
   if(montajYeri=="Montajsız"){
-    KapiUcreti=KapiUcreti-950;
+    KapiUcreti=KapiUcreti-250;
   }
   if(montajYeri=="İlçe Seçiniz"||montajYeri==""|| kasaGenisligi=="" || kasaGenisligi=="Kasa Genişliği"){
     KapiUcreti=KapiUcreti*0;
@@ -103,7 +103,7 @@ const UrunDetay = () => {
     KapiUcreti=KapiUcreti+200;
   }
   if(kasaGenisligi=="20'lik Kasa (18.5 tuğla)"){
-    KapiUcreti=KapiUcreti+400;
+    KapiUcreti=KapiUcreti+500;
   }
 
   let toplamTutar=(KapiUcreti * kapiAdedi)+(camliSayisi*1000);
